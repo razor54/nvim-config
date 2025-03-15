@@ -63,7 +63,7 @@ M.ui = {
 
 M.nvdash = {
   load_on_startup = true,
-  header = get_header "nvchad",
+  header = get_header "razor54_secondary",
   buttons = {
     { txt = "  Find File", keys = "Spc f f", cmd = "Telescope find_files" },
     { txt = "󰈚  Recent Files", keys = "Spc f r", cmd = "Telescope oldfiles" },
@@ -137,9 +137,9 @@ M.mason = {
 M.lsp = { signature = false }
 
 M.base46 = {
-  theme = "material-deep-ocean",
+  theme = "nord",
   transparency = false,
-  theme_toggle = { "material-deep-ocean", "one_light" },
+  theme_toggle = { "nord", "one_light" },
   hl_override = highlights.override,
   hl_add = highlights.add,
   integrations = {
